@@ -52,3 +52,7 @@ body{
 .appResponseInner{
     margin: 2em;
 }
+
+.response{
+    font-size: 2em;
+}
