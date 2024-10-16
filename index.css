@@ -1,0 +1,54 @@
+body{
+    background-color: darkgray;
+}
+
+.outerContainer{
+    margin: 0 auto;
+    margin-top: 2em;
+    width: fit-content;
+}
+
+.innerContainer{
+    border: 2px solid black;
+    border-radius: 1em;
+    background-color: white;
+}
+
+.app{
+    margin: 1em;
+}
+
+.appHeader{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.instructions{
+    font-size: 1.5em;
+}
+
+.userForm{
+    display:flex;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.userInput{
+    font-size: 2em;
+    text-align: center;
+}
+
+.submitButton{
+    font-size: 2em;
+    background-color: green;
+    color: white;
+}
+
+.appResponseOuter{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.appResponseInner{
+    margin: 2em;
+}
