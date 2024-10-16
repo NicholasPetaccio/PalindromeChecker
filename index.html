@@ -23,18 +23,18 @@
                             <div class="outerInstructions">
                                 <div class="innerInstructions">
                                     <p class="instructions">
-                                        Type your word into the text field and press 'enter' to check if it's a palindrome. (the same word spelled forwards and backwards)
+                                        Type your word into the text field and press 'enter' to check if it's a palindrome. (the same word/sentence spelled forwards and backwards)
                                     </p>
                                 </div>
                             </div>
-                            <form class="userForm">
-                                <input class="userInput" type="text" size=50 maxlength="50" minlength="3">
-                                <input class="submitButton" type="button" value="submit">
+                            <form class="userForm" id="form">
+                                <input class="userInput" id="userInput" type="text" size=50 maxlength="50" minlength="3">
+                                
                             </form>
                             <div class="appResponseOuter">
                                 <div class="appResponseInner">
                                     <div class="appResponse">
-                                        
+                                        <p class="response" id="answer"></p>
                                     </div>
                                 </div>
                             </div>
@@ -44,5 +44,6 @@
             </div>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
